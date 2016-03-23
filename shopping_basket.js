@@ -6,7 +6,7 @@ var shoppingList = {
     type: 'whirlpool'
   },
   fridge:{
-    price: 10,
+    price: 100,
     type: 'kenwood'
   },
   kettle:{
@@ -23,6 +23,14 @@ var shoppingBasket = {
   addItem: function(item) {
     this.basket.push(shoppingList[item]);
     this.total += (shoppingList[item].price);
+  },
+  applyDiscount: function() {
+     if (this.total > 20) {
+      this.total -= (this.total * 0.1); //can you just -10% it give weird answers!
+     }
+  },
+  storeCard: function(){
+    if storeCard = true,
   },
 
 
