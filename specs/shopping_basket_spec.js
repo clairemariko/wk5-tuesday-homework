@@ -41,5 +41,9 @@ describe('Shopping Basket', function() {
   });
 
 
+//NOTES FROM OTHER HOMEWORKS
+
+
+
 
 
